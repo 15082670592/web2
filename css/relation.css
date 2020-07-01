@@ -1,0 +1,23 @@
+/* 公告信息 */
+.gg{
+	padding-top: 80px;
+}
+.right_search{
+	height: 40px;
+	color: white;
+	border-bottom: 1px solid #00A84D;
+	margin-bottom: 10px;
+}
+.right_search div{
+		background: #00A84D;
+		padding-left: 10px;
+		padding-right: 10px;
+		border-radius: 5px;
+}
+.right_search input{
+	outline: none;
+	border: none;
+}
+.pr{
+	margin-right: 0;
+}

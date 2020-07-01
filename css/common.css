@@ -1,0 +1,18 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+@font-face {
+	font-family: 'semir-ico';
+	src: url('../font/iconfont.eot?st5xlr');
+	src: url('../font/iconfont.eot?st5xlr#iefix') format('embedded-opentype'),
+		url('../font/iconfont.ttf?st5xlr') format('truetype'),
+		url('../font/iconfont.woff?st5xlr') format('woff'),
+		url('../font/iconfont.svg?st5xlr#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+i{
+	font-family: 'semir-ico';
+	font-style: normal;
+}
