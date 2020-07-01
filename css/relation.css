@@ -21,3 +21,23 @@
 .pr{
 	margin-right: 0;
 }
+.semir_info{
+	color: #4A4A4A;
+	font-size: 13px;
+}
+.semir_info div{
+	margin-bottom: 10px;
+}
+.semir_info div+div:hover{
+	background-color: #F1F6FA;
+	cursor: pointer;
+}
+.semir_info .info_title{
+	font-size: 22px;
+	background-color: #F7F7F7;
+	height: 45px;
+	line-height: 45px;
+}
+#h6{
+	font-size: 16px;
+}
