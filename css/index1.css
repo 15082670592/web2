@@ -78,7 +78,7 @@ i {
 }
 
 @media (max-width:768px) {
-	#header .nav #u1 ul{
+	#header .nav #u1{
 		display: flex;
 		float: left;
 		flex-direction: column;
