@@ -29,4 +29,7 @@ for (var i = 0; i < keywords.length; i++) {
 		my$("input_key").value = this.innerText;
 	}
 }
-
+h6.onclick=function(){
+	mask_info.style.display="block";
+	h6.style.display="none";
+}

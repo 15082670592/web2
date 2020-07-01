@@ -41,3 +41,34 @@
 #h6{
 	font-size: 16px;
 }
+#mask_info{
+	display: none;
+}
+#mask_info:hover{
+	background-color: white;
+}
+@media (min-width:776px) {
+	.left_h,.right_h{
+		height: 140px;
+	}
+}
+.container{
+	margin: 0 auto;
+}
+.left_h{
+	background-color:#B79D62 ;
+}
+.left_h a{
+	display: block;
+	margin-top: 60px;
+	color: white;
+	text-decoration: none;
+	font-size: 22px;
+}
+.left_h a:hover{
+	color: gray;
+	text-decoration: none;
+}
+.right_h{
+	background-color: #F3F3F3;
+}
