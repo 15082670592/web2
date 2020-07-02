@@ -9,7 +9,7 @@ act2.onclick = function() {
 	act1.style.display = "block"
 }
 
-// 通过id获取元素
+//  通过id获取元素
 function my$(id) {
 	return document.getElementById(id);
 }
