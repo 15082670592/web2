@@ -128,9 +128,6 @@ i {
 		border-bottom: 1px dashed #00A84D;
 	}
 
-	#header .nav ul li a {
-		/* font-size: 14px; */
-	}
 
 	#first_l {
 		border-top: 1px solid #00A84D;
@@ -369,14 +366,10 @@ p {
 	display: none !important;
 	animation:fadeInDown 0.5s;
 }
-.pic_mask a{}
 .chengren_pic a:hover .pic_mask{
 	display: block !important;
-	
 }
-.chengren_pic a:hover img{
-	/* transform: scale(1.1); */
-}
+
 .s1{
 	position: absolute;
 	top:60px;
@@ -418,7 +411,4 @@ p {
 }
 .h-b{
 	height: 40px;
-}
-.h-b p{
-		/* line-height: 40px; */
 }

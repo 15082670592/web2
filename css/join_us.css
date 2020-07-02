@@ -1,0 +1,59 @@
+.commit{
+    padding-top: 80px;
+    color: white;
+}
+.pic_bg{
+    height: 965px;
+    background-color: rgba(0,0,0,.5);
+}
+.commit h3{
+    font-size: 26px;
+}
+.commit h3::before {
+	content: "";
+	width: calc(50% - 77px);
+	height: 0;
+	border-bottom: 1px solid white;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	z-index: 1;
+}
+
+.commit h3::after {
+	content: "";
+	width: calc(50% - 77px);
+	height: 0;
+	border-bottom: 1px solid white;
+	position: absolute;
+	top: 50%;
+	right: 0;
+	z-index: 1;
+}
+.info_table table{
+    width: 100%;
+    color: white;
+}
+.info_table table tr{
+    text-align: center;
+    border-bottom: 1px dashed white;
+    height: 30px;
+    line-height: 30px;
+}
+.jb_bt{
+    margin-top: 100px;
+}
+.right-info p:nth-of-type(2n+1){
+	color: #00A74D;
+	font-size: 18px;
+	font-weight: bold;
+}
+.right-info{
+	padding-bottom: 200px;
+}
+.job_info{
+	transition: 3s;
+}
+.job_info img:hover{
+	transform: scale(1.05);
+}
